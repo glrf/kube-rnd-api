@@ -1,0 +1,15 @@
+domain: glrf.xyz
+layout:
+- go.kubebuilder.io/v3
+projectName: kube-rnd-api
+repo: github.com/glrf/kube-rnd-api
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: rnd.glrf.xyz
+  group: rnd
+  kind: Number
+  path: github.com/glrf/kube-rnd-api/api/v1
+  version: v1
+version: "3"

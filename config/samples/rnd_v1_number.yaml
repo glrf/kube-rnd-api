@@ -1,0 +1,5 @@
+apiVersion: rnd.glrf.xyz/v1
+kind: Number
+metadata:
+  name: number-sample
+spec:
